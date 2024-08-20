@@ -40,3 +40,54 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Styling for the puppy names */
+.App p {
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover */
+.App p:hover {
+  background-color: #e0e0e0;
+}
+
+/* Styling for the detailed view */
+.App div {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  width: 300px;
+}
+
+/* Styling for the puppy details */
+.App h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.App ul {
+  list-style: none;
+  padding: 0;
+}
+
+.App li {
+  margin: 5px 0;
+}
