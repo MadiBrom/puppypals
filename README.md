@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 Here is the link to the website
 
-http://localhost:5173/
+https://66c42462baf803ae44ef2e86--golden-dasik-a639ca.netlify.app/
